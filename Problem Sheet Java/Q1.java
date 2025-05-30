@@ -9,15 +9,34 @@ class Student {
         this.daysAttended = daysAttended;
     }
 
-    public int getStudentId() { return studentId; }
-    public String getName() { return name; }
-    public int getDaysAttended() { return daysAttended; }
+    public int getStudentId() 
+    { 
+        return studentId; 
+    }
+    public String getName()
+    { 
+        return name; 
+    }
+    public int getDaysAttended()
+    { 
+        return daysAttended; 
+    }
 
-    public void setStudentId(int studentId) { this.studentId = studentId; }
-    public void setName(String name) { this.name = name; }
-    public void setDaysAttended(int daysAttended) { this.daysAttended = daysAttended; }
+    public void setStudentId(int studentId)
+    {
+        this.studentId = studentId;
+    }
+    public void setName(String name) 
+    { 
+        this.name = name;
+    }
+    public void setDaysAttended(int daysAttended)
+    { 
+        this.daysAttended = daysAttended; 
+    }
 
-    public String toString() {
+    public String toString()
+    {
         return "ID: " + studentId + ", Name: " + name + ", Days Attended: " + daysAttended;
     }
 }
